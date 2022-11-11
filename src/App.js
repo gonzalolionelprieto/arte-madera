@@ -29,13 +29,24 @@ function App() {
       <FixedIcon />
       <Navbar />
       <Header />
-      <Welcome />
+      <main>
+        <Welcome />
       <Banner url={bg2} children={"SERVICIOS"}></Banner>
-      <Artist />
+      <article>
+         <Artist />
+      </article>
+     
       <Banner url={bg1} children={"GALERIA"}></Banner>
-      <Gallery />
+      <article>
+        <Gallery />
+      </article>
       
-      <Contact />
+      <article>
+        <Contact />
+      </article>
+      
+      </main>
+      
       <Footer/>
 
     </>
