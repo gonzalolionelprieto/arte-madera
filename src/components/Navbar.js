@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="col-6 d-none d-lg-flex ">
           <a
             className="nav-link"
-            href="https://api.whatsapp.com/send?phone=1157475059&text=Hola, vi tu web y queria hacerte una consulta!"
+            href="https://api.whatsapp.com/send?phone=+5491157475059&text=Hola, vi tu web y queria hacerte una consulta!"
             target="_blank"
             rel="noreferrer"
           >
