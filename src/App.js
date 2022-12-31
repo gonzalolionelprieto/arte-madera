@@ -24,11 +24,12 @@ function App() {
   const bg2="https://images.pexels.com/photos/3926793/pexels-photo-3926793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
 
+
   return (
     <>
       <FixedIcon />
       <Navbar />
-      <Header />
+      <Header a={true}/>
       <main>
         <Welcome />
       <Banner url={bg2} children={"SERVICIOS"}></Banner>

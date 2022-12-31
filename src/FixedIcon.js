@@ -5,7 +5,7 @@ export default function FixedIcon() {
   return (
     <div>
       <a href="https://api.whatsapp.com/send?phone=+5491157475059&text=Hola, vi tu web y queria hacerte una consulta!" target="_blank" rel="noreferrer">
-        <img className="fixed-icon" src={wsp} alt="whatsapp" />
+        <img className="fixed-icon" src={wsp} alt="whatsapp-envia tu consulta" />
       </a>
     </div>
   );
